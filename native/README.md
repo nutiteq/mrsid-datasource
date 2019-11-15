@@ -19,7 +19,7 @@ cd ../..
 ### Compiling for iOS
 
 ```
-export IOS_MRSID_DSDK=<Location of MrSID Android DSDK>
+export IOS_MRSID_DSDK=<Location of MrSID iOS DSDK>
 export IOS_ARCH=x86_64
 export IOS_PLATFORM=iphonesimulator
 mkdir -p ios/$IOS_ARCH
@@ -28,7 +28,7 @@ cmake -G "Xcode" -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_OSX_ARCHITECTURES=$IOS_ARCH -DC
 cmake --build . --config Release
 cd ../..
 
-... same for other archs/platforms (i386, armv7, arm64)  ...
+... same for other archs/platforms (i386/iphonesimulator, armv7/iphoneos, arm64/iphoneos)  ...
 
 lipo -output ios/libmrsid_rastertile_datasource.dylib -create ios/x86_64/Release-$IOS_PLATFORM/libmrsid_rastertile_datasource.dylib
 ```
