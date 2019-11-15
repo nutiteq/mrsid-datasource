@@ -1,5 +1,6 @@
 ### Compiling for Android
 
+```
 export ANDROID_NDK=<Location of Android NDK>
 export ANDROID_MRSID_DSDK=<Location of MrSID Android DSDK>
 export ANDROID_ABI=arm64-v8a
@@ -12,10 +13,12 @@ cd ../..
 ... same for other abis (armeabi-v7a, x86, x86_64) ...
 
 ... zip generated .so files (under jni), AndroidManifest.xml and classes.jar into aar file ...
+```
 
 
 ### Compiling for iOS
 
+```
 export IOS_MRSID_DSDK=<Location of MrSID Android DSDK>
 export IOS_ARCH=x86_64
 export IOS_PLATFORM=iphonesimulator
@@ -28,3 +31,4 @@ cd ../..
 ... same for other archs/platforms (i386, armv7, arm64)  ...
 
 lipo -output ios/libmrsid_rastertile_datasource.dylib -create ios/x86_64/Release-$IOS_PLATFORM/libmrsid_rastertile_datasource.dylib
+```
