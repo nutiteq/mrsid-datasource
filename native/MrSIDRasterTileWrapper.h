@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2019 CARTO. All rights reserved.
+ * Copying and using this code is allowed only according
+ * to license terms, as given in https://cartodb.com/terms/
+ */
+
 #pragma once
 
 extern "C" {
