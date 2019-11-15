@@ -1,0 +1,6 @@
+native/ios/
+native/android/
+ios/Pods/
+ios/Podfile.lock
+ios/HelloMap.Objective-C/HelloMap.Objective-C.xcworkspace/
+android/HelloMapAndroid/app/build/
