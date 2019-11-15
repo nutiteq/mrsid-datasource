@@ -21,7 +21,7 @@ The actual datasource class is implemented in Java and can be modified, if neede
 
 iOS sample is placed in 'ios' folder and depends on *CocoaPod* package manager. Once `pod update` is executed, the relevant project workspace is created and the project can be loaded into *XCode* IDE. Note that the 'native' component is embedded into dynamic library ('libmrsid_rastertile_datasource.dylib') that is linked to the project.
 
-The actual datasource class is implemented in Objective C and can be modified, if needed.
+The actual datasource class is implemented in Objective C and can be modified, if needed. **Note that the iOS version currently runs only in simulator, as the dynamic library component is not properly signed to run on actual devices.** 
 
 
 Both iOS and Android datasource classes support 2 custom settings: tile size and reprojection scale.
