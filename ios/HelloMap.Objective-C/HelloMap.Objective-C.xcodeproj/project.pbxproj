@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		310CB4AB22D56A2CFE9D4055 /* libPods-HelloMap.Objective-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 381315C658D809D0314B39B8 /* libPods-HelloMap.Objective-C.a */; };
-		3B73F02C237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73F02B237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib */; };
-		3B73F02D237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3B73F02B237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3B73F030237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73F02F237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib */; };
+		3B73F031237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3B73F02F237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3BC064BE237AEFB900A5B6AE /* MrSIDRasterTileDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BC064BB237AEFB900A5B6AE /* MrSIDRasterTileDataSource.mm */; };
 		3BC064C6237AF39100A5B6AE /* Oslo.sid in Resources */ = {isa = PBXBuildFile; fileRef = 3BC064C5237AF39100A5B6AE /* Oslo.sid */; };
 		AD97A5FB1D8958DA00B942AC /* CartoMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD97A5FA1D8958DA00B942AC /* CartoMobileSDK.framework */; };
@@ -24,13 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3B73F02E237D58A9003339F7 /* Embed Libraries */ = {
+		3B73F032237E9C34003339F7 /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3B73F02D237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib in Embed Libraries */,
+				3B73F031237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +41,7 @@
 		381315C658D809D0314B39B8 /* libPods-HelloMap.Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloMap.Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B73F025237D5738003339F7 /* libmrsid_rastertile_datasource.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmrsid_rastertile_datasource.dylib; path = ../../mrsid/native/libmrsid_rastertile_datasource.dylib; sourceTree = "<group>"; };
 		3B73F02B237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmrsid_rastertile_datasource.dylib; path = "HelloMap.Objective-C/libmrsid_rastertile_datasource.dylib"; sourceTree = "<group>"; };
+		3B73F02F237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmrsid_rastertile_datasource.dylib; path = "HelloMap.Objective-C/datasource/libmrsid_rastertile_datasource.dylib"; sourceTree = "<group>"; };
 		3BC064B9237AEFB900A5B6AE /* MrSIDRasterTileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MrSIDRasterTileDataSource.h; path = datasource/MrSIDRasterTileDataSource.h; sourceTree = "<group>"; };
 		3BC064BB237AEFB900A5B6AE /* MrSIDRasterTileDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MrSIDRasterTileDataSource.mm; path = datasource/MrSIDRasterTileDataSource.mm; sourceTree = "<group>"; };
 		3BC064BF237AF07F00A5B6AE /* libltidsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libltidsdk.a; path = LTI/lib/libltidsdk.a; sourceTree = "<group>"; };
@@ -73,7 +74,7 @@
 				ADBFDA6E1D784E1A003DCBC9 /* libz.tbd in Frameworks */,
 				ADBFDA6C1D784DF1003DCBC9 /* GLKit.framework in Frameworks */,
 				310CB4AB22D56A2CFE9D4055 /* libPods-HelloMap.Objective-C.a in Frameworks */,
-				3B73F02C237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib in Frameworks */,
+				3B73F030237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +104,7 @@
 			children = (
 				3B73F025237D5738003339F7 /* libmrsid_rastertile_datasource.dylib */,
 				3B73F02B237D58A9003339F7 /* libmrsid_rastertile_datasource.dylib */,
+				3B73F02F237E9C34003339F7 /* libmrsid_rastertile_datasource.dylib */,
 				3BC064C3237AF2C900A5B6AE /* libiconv.tbd */,
 				3BC064C1237AF29D00A5B6AE /* libgdal.a */,
 				3BC064BF237AF07F00A5B6AE /* libltidsdk.a */,
@@ -169,7 +171,7 @@
 				ADBFDA491D7840B1003DCBC9 /* Sources */,
 				ADBFDA4A1D7840B1003DCBC9 /* Frameworks */,
 				ADBFDA4B1D7840B1003DCBC9 /* Resources */,
-				3B73F02E237D58A9003339F7 /* Embed Libraries */,
+				3B73F032237E9C34003339F7 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -403,6 +405,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/LTI/lib",
 					"$(PROJECT_DIR)/HelloMap.Objective-C",
+					"$(PROJECT_DIR)/HelloMap.Objective-C/datasource",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nutiteq.hellomap.obj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +428,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/LTI/lib",
 					"$(PROJECT_DIR)/HelloMap.Objective-C",
+					"$(PROJECT_DIR)/HelloMap.Objective-C/datasource",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nutiteq.hellomap.obj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
